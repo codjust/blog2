@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `hexo-site/source/` directory.
-favicon: /favicon.ico
+favicon: favicon.ico
 
 # Set default keywords (Use a comma to separate)
 keywords: "codejust"
@@ -104,7 +104,7 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
-
+  jianshu: jianshu
 # Blog rolls
 #links_title: Links
 #links_layout: block

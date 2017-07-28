@@ -51,6 +51,7 @@ B Object Create.
 do int i
 do double i.
 ```
+<!--more-->
 子类需要覆盖屏蔽时，为了避免自己手贱写成重载的形式，可以加@Override注解，当写成上面的形式的时候就会报错，重写只需要跟基类的定义一样即可，正确的写法：
 ```java
 public class A {

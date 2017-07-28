@@ -17,6 +17,7 @@ C＋＋中的const定义常量.
 final Object obj=(Object)new String("a");  
 obj=(Object)new String("hello");//是非法的  
 ```
+<!--more-->
 但是依然可以调用obj的方法。如((String)obj).length()是合法的；而C++如果一个对象被定义成const，就不能调用对象的方法。除非这个方法被定义成const.
 
 ```java
