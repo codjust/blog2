@@ -1,10 +1,9 @@
 ---
 title: Java学习笔记(3)- final 和 c++ const的区别
 date: 2017-06-07 17:22:06
-tags:
+tags: [java, final, c++]
 categories:
     - Java学习笔记
-autoThumbnailImage: yes
 ---
 
 (1)final在java中定义常量，可作用于基本类型或者类类型，若是作用于类类型，则此类类型不能作为父类被继承，也就是说它的下面不能有子类，这样的类叫做原子类。  

@@ -4,11 +4,11 @@
 
 # Site
 title: codejust的BLOG
-subtitle: 成为历史的服务端！
-description: we are champion.
+subtitle: Everything will change!
+description: We are champion.
 author: codejust
 email: hcwzqmail@gmail.com
-language: zh-Hans
+language: en
 timezone: PRC
 
 # URL
@@ -86,11 +86,7 @@ menu:
 avatar: /images/headbox.jpg
 
 # Social links
-social:
-  facebook: http://www.facebook.com/
-  weibo: http://www.weibo.com/1724713107/profile?topnav=1&wvr=6&is_all=1
-  jianshu: http://www.jianshu.com/u/8806a8abfdf5
-  github: https://github.com/huchangwei
+#social:
 
 # Friendly Links
 links_title: Links

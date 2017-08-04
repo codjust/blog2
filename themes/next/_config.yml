@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `hexo-site/source/` directory.
-favicon: favicon.ico
+favicon:  /favicon.ico
 
 # Set default keywords (Use a comma to separate)
 keywords: "codejust"
@@ -47,7 +47,7 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
+  categories: /categories/
   #about: /about/
   archives: /archives/
   tags: /tags/
@@ -89,8 +89,12 @@ scheme: Muse
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
+social:
   #LinkLabel: Link
+  facebook: http://www.facebook.com/
+  weibo: http://www.weibo.com/1724713107/profile?topnav=1&wvr=6&is_all=1
+  jianshu: http://www.jianshu.com/u/8806a8abfdf5
+  github: https://github.com/huchangwei
 
 # Social Links Icons
 # Icon Mapping:
@@ -104,7 +108,7 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
-  jianshu: jianshu
+  jianshu: heartbeat
 # Blog rolls
 #links_title: Links
 #links_layout: block
@@ -326,11 +330,11 @@ changyan:
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-baidushare:
-  type: button
+#baidushare:
+#  type: button
 
 # Share
-jiathis: true
+#jiathis: true
 # Warning: JiaThis does not support https.
 #add_this_id:
 

@@ -1,7 +1,7 @@
 ---
 title: Java学习笔记(1)
 date: 2017-06-06 19:34:24
-tags:
+tags: [java]
 categories:
     - Java学习笔记
 ---
