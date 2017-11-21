@@ -30,7 +30,7 @@ After git push -f:
 ```
 
 ### 2 找回步骤
-（1）这个方法的前提是你有权限登陆部署了Gitlab的服务器，我们需要找到Gitlab保存仓库的目录，首先通过ssh登陆上Gitlab的服务器，然后找到gitlab的存放仓库的地方，默认是在```/var/opt/gitlab/git-data/repositories```。
+（1）这个方法的前提是你有权限登陆部署了Gitlab的服务器，我们需要找到Gitlab保存仓库的目录，首先通过ssh登陆上Gitlab的服务器，然后找到gitlab的存放仓库的地方，默认是在/var/opt/gitlab/git-data/repositories。
 
 在这个目录下找到自己要回滚的仓库，并cd到该仓库。
 
@@ -45,7 +45,7 @@ tar cvzf project-backup.tgz  /path/to/project.git
 config description HEAD hooks hooks.old.xxx info objects refs
 ```
 
-在当前目录使用```git fsck```工具找回上次执行的危险操作，直接执行```git fsck```命令，该命令显示所有未被其他对象引用 (指向) 的所有对象，会有如下输出：
+在当前目录使用git fsck工具找回上次执行的危险操作，直接执行git fsck命令，该命令显示所有未被其他对象引用 (指向) 的所有对象，会有如下输出：
 ```bash
 dangling commit ab1afef80fac8e34258ff41fc1b867c702daa24b
 ```
