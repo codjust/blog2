@@ -52,7 +52,7 @@ MAT工具找到这些Player对象为什么不会被回收：
 
 然后我们继续跟踪这些对象是被什么强引用：
 
-![image.png](http://upload-images.jianshu.io/upload_images/3981501-4cae0b3740dddb78.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](http://upload-images.jianshu.io/upload_images/3981501-4c82c35ee4518dd8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 得到的结果是：
