@@ -1,8 +1,8 @@
 ---
 title: 使用maven+spring构建服务端基础工程
 date: 2017-10-26 15:52:59
-tags: [java,maven,spring]
-categories: 游戏服务端开发
+tags: [maven,spring]
+categories: 服务端开发
 ---
 简单记录下自己常用的项目基础工程，基础工程包括常用的spring使用的配置形式和项目结构，结合maven，以后新建项目都可以直接基于此基础工程。
 

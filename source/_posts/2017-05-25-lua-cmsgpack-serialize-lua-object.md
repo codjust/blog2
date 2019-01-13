@@ -3,6 +3,9 @@ title: 使用lua-cmsgpack序列化和反序列化lua对象
 date: 2017-05-25 22:21:22
 tags: [lua, redis, messagepack] 
 categories: 后端开发那些事儿
+front-matter: 
+  toc: true
+  comments: true
 ---
 lua-cmsgpack是一个开源的MessagePack实现方式、纯C的库，没有任何其它依赖，编译后可以直接被lua调用，目前主要支持Lua 5.1/5.2/5.3 版本。
 1、什么是MessagePack？
