@@ -20,6 +20,8 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm install hexo --save
+        echo $(pwd)
+        hexo --version
         hexo generate
         hexo deploy
       env:
