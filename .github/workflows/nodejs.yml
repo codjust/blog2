@@ -22,8 +22,7 @@ jobs:
         npm install
         npm audit fix --force
         echo $(pwd)
-        hexo --version
-        hexo generate
-        hexo deploy
+        npm run generate
+        npm run deploy
       env:
         CI: true
