@@ -20,7 +20,7 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm install
-        npm audix fix --force
+        npm audit fix --force
         echo $(pwd)
         hexo --version
         hexo generate
