@@ -13,7 +13,7 @@ timezone: PRC
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://huchangwei.github.io
+url: https://codjust.github.io/
 root: /
 permalink: :title.html
 permalink_defaults:
@@ -64,13 +64,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: next
+theme: maupassant
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/huchangwei/huchangwei.github.io
+  repo: https://github.com/codjust/codjust.github.io.git
   branch: master
 	
 # Comment plug-in
